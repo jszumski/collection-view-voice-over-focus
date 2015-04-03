@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		038A0F851ACAE2DD0094F0D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 038A0F841ACAE2DD0094F0D5 /* main.m */; };
+		038A0F881ACAE2DD0094F0D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 038A0F871ACAE2DD0094F0D5 /* AppDelegate.m */; };
+		038A0F8B1ACAE2DD0094F0D5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038A0F8A1ACAE2DD0094F0D5 /* MasterViewController.m */; };
+		038A0F8E1ACAE2DD0094F0D5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038A0F8D1ACAE2DD0094F0D5 /* DetailViewController.m */; };
+		038A0F911ACAE2DD0094F0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038A0F8F1ACAE2DD0094F0D5 /* Main.storyboard */; };
+		038A0F931ACAE2DD0094F0D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038A0F921ACAE2DD0094F0D5 /* Images.xcassets */; };
+		038A0F961ACAE2DD0094F0D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038A0F941ACAE2DD0094F0D5 /* LaunchScreen.xib */; };
+		038A0FA21ACAE2DD0094F0D5 /* VoiceOver_Focus_CellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 038A0FA11ACAE2DD0094F0D5 /* VoiceOver_Focus_CellsTests.m */; };
+		038A0FAD1ACAEA9C0094F0D5 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038A0FAC1ACAEA9C0094F0D5 /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		038A0F9C1ACAE2DD0094F0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 038A0F771ACAE2DD0094F0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 038A0F7E1ACAE2DD0094F0D5;
+			remoteInfo = "VoiceOver Focus Cells";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038A0F7F1ACAE2DD0094F0D5 /* VoiceOver Focus Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VoiceOver Focus Cells.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		038A0F831ACAE2DD0094F0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		038A0F841ACAE2DD0094F0D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		038A0F861ACAE2DD0094F0D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		038A0F871ACAE2DD0094F0D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		038A0F891ACAE2DD0094F0D5 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		038A0F8A1ACAE2DD0094F0D5 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		038A0F8C1ACAE2DD0094F0D5 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		038A0F8D1ACAE2DD0094F0D5 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		038A0F901ACAE2DD0094F0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		038A0F921ACAE2DD0094F0D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		038A0F951ACAE2DD0094F0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		038A0F9B1ACAE2DD0094F0D5 /* VoiceOver Focus CellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VoiceOver Focus CellsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		038A0FA01ACAE2DD0094F0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		038A0FA11ACAE2DD0094F0D5 /* VoiceOver_Focus_CellsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceOver_Focus_CellsTests.m; sourceTree = "<group>"; };
+		038A0FAB1ACAEA9C0094F0D5 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		038A0FAC1ACAEA9C0094F0D5 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		038A0F7C1ACAE2DD0094F0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		038A0F981ACAE2DD0094F0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038A0F761ACAE2DD0094F0D5 = {
+			isa = PBXGroup;
+			children = (
+				038A0F811ACAE2DD0094F0D5 /* VoiceOver Focus Cells */,
+				038A0F9E1ACAE2DD0094F0D5 /* VoiceOver Focus CellsTests */,
+				038A0F801ACAE2DD0094F0D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		038A0F801ACAE2DD0094F0D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				038A0F7F1ACAE2DD0094F0D5 /* VoiceOver Focus Cells.app */,
+				038A0F9B1ACAE2DD0094F0D5 /* VoiceOver Focus CellsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		038A0F811ACAE2DD0094F0D5 /* VoiceOver Focus Cells */ = {
+			isa = PBXGroup;
+			children = (
+				038A0F861ACAE2DD0094F0D5 /* AppDelegate.h */,
+				038A0F871ACAE2DD0094F0D5 /* AppDelegate.m */,
+				038A0F891ACAE2DD0094F0D5 /* MasterViewController.h */,
+				038A0F8A1ACAE2DD0094F0D5 /* MasterViewController.m */,
+				038A0F8C1ACAE2DD0094F0D5 /* DetailViewController.h */,
+				038A0F8D1ACAE2DD0094F0D5 /* DetailViewController.m */,
+				038A0FAB1ACAEA9C0094F0D5 /* TableViewController.h */,
+				038A0FAC1ACAEA9C0094F0D5 /* TableViewController.m */,
+				038A0F8F1ACAE2DD0094F0D5 /* Main.storyboard */,
+				038A0F921ACAE2DD0094F0D5 /* Images.xcassets */,
+				038A0F941ACAE2DD0094F0D5 /* LaunchScreen.xib */,
+				038A0F821ACAE2DD0094F0D5 /* Supporting Files */,
+			);
+			path = "VoiceOver Focus Cells";
+			sourceTree = "<group>";
+		};
+		038A0F821ACAE2DD0094F0D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				038A0F831ACAE2DD0094F0D5 /* Info.plist */,
+				038A0F841ACAE2DD0094F0D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		038A0F9E1ACAE2DD0094F0D5 /* VoiceOver Focus CellsTests */ = {
+			isa = PBXGroup;
+			children = (
+				038A0FA11ACAE2DD0094F0D5 /* VoiceOver_Focus_CellsTests.m */,
+				038A0F9F1ACAE2DD0094F0D5 /* Supporting Files */,
+			);
+			path = "VoiceOver Focus CellsTests";
+			sourceTree = "<group>";
+		};
+		038A0F9F1ACAE2DD0094F0D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				038A0FA01ACAE2DD0094F0D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		038A0F7E1ACAE2DD0094F0D5 /* VoiceOver Focus Cells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 038A0FA51ACAE2DD0094F0D5 /* Build configuration list for PBXNativeTarget "VoiceOver Focus Cells" */;
+			buildPhases = (
+				038A0F7B1ACAE2DD0094F0D5 /* Sources */,
+				038A0F7C1ACAE2DD0094F0D5 /* Frameworks */,
+				038A0F7D1ACAE2DD0094F0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VoiceOver Focus Cells";
+			productName = "VoiceOver Focus Cells";
+			productReference = 038A0F7F1ACAE2DD0094F0D5 /* VoiceOver Focus Cells.app */;
+			productType = "com.apple.product-type.application";
+		};
+		038A0F9A1ACAE2DD0094F0D5 /* VoiceOver Focus CellsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 038A0FA81ACAE2DD0094F0D5 /* Build configuration list for PBXNativeTarget "VoiceOver Focus CellsTests" */;
+			buildPhases = (
+				038A0F971ACAE2DD0094F0D5 /* Sources */,
+				038A0F981ACAE2DD0094F0D5 /* Frameworks */,
+				038A0F991ACAE2DD0094F0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				038A0F9D1ACAE2DD0094F0D5 /* PBXTargetDependency */,
+			);
+			name = "VoiceOver Focus CellsTests";
+			productName = "VoiceOver Focus CellsTests";
+			productReference = 038A0F9B1ACAE2DD0094F0D5 /* VoiceOver Focus CellsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		038A0F771ACAE2DD0094F0D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "John Szumski";
+				TargetAttributes = {
+					038A0F7E1ACAE2DD0094F0D5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					038A0F9A1ACAE2DD0094F0D5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 038A0F7E1ACAE2DD0094F0D5;
+					};
+				};
+			};
+			buildConfigurationList = 038A0F7A1ACAE2DD0094F0D5 /* Build configuration list for PBXProject "VoiceOver Focus Cells" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 038A0F761ACAE2DD0094F0D5;
+			productRefGroup = 038A0F801ACAE2DD0094F0D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				038A0F7E1ACAE2DD0094F0D5 /* VoiceOver Focus Cells */,
+				038A0F9A1ACAE2DD0094F0D5 /* VoiceOver Focus CellsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		038A0F7D1ACAE2DD0094F0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038A0F911ACAE2DD0094F0D5 /* Main.storyboard in Resources */,
+				038A0F961ACAE2DD0094F0D5 /* LaunchScreen.xib in Resources */,
+				038A0F931ACAE2DD0094F0D5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		038A0F991ACAE2DD0094F0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		038A0F7B1ACAE2DD0094F0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038A0F881ACAE2DD0094F0D5 /* AppDelegate.m in Sources */,
+				038A0F8B1ACAE2DD0094F0D5 /* MasterViewController.m in Sources */,
+				038A0F851ACAE2DD0094F0D5 /* main.m in Sources */,
+				038A0FAD1ACAEA9C0094F0D5 /* TableViewController.m in Sources */,
+				038A0F8E1ACAE2DD0094F0D5 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		038A0F971ACAE2DD0094F0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038A0FA21ACAE2DD0094F0D5 /* VoiceOver_Focus_CellsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		038A0F9D1ACAE2DD0094F0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 038A0F7E1ACAE2DD0094F0D5 /* VoiceOver Focus Cells */;
+			targetProxy = 038A0F9C1ACAE2DD0094F0D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		038A0F8F1ACAE2DD0094F0D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				038A0F901ACAE2DD0094F0D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		038A0F941ACAE2DD0094F0D5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				038A0F951ACAE2DD0094F0D5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		038A0FA31ACAE2DD0094F0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		038A0FA41ACAE2DD0094F0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		038A0FA61ACAE2DD0094F0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VoiceOver Focus Cells/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		038A0FA71ACAE2DD0094F0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VoiceOver Focus Cells/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		038A0FA91ACAE2DD0094F0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VoiceOver Focus CellsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceOver Focus Cells.app/VoiceOver Focus Cells";
+			};
+			name = Debug;
+		};
+		038A0FAA1ACAE2DD0094F0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VoiceOver Focus CellsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceOver Focus Cells.app/VoiceOver Focus Cells";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		038A0F7A1ACAE2DD0094F0D5 /* Build configuration list for PBXProject "VoiceOver Focus Cells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038A0FA31ACAE2DD0094F0D5 /* Debug */,
+				038A0FA41ACAE2DD0094F0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		038A0FA51ACAE2DD0094F0D5 /* Build configuration list for PBXNativeTarget "VoiceOver Focus Cells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038A0FA61ACAE2DD0094F0D5 /* Debug */,
+				038A0FA71ACAE2DD0094F0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		038A0FA81ACAE2DD0094F0D5 /* Build configuration list for PBXNativeTarget "VoiceOver Focus CellsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038A0FA91ACAE2DD0094F0D5 /* Debug */,
+				038A0FAA1ACAE2DD0094F0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 038A0F771ACAE2DD0094F0D5 /* Project object */;
+}
